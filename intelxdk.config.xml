@@ -119,7 +119,7 @@
     <!-- Intel XDK API Plugins -->
     <!-- include only those your app requires to eliminate unnecessary app permissions -->
     <!-- to avoid duplication between Intel XDK plugins and Cordova plugins, use whichever works best for your app -->
-    <intelxdk:plugin intelxdk:name="Base" intelxdk:value="IntelXDKBase" />
+    <intelxdk:plugin intelxdk:name="Base" intelxdk:value="intel.xdk.base" />
     <intelxdk:plugin intelxdk:name="Acceleration" intelxdk:value="intel.xdk.acceleration" />
     <intelxdk:plugin intelxdk:name="Audio" intelxdk:value="intel.xdk.audio" />
     <intelxdk:plugin intelxdk:name="Cache" intelxdk:value="intel.xdk.cache" />
