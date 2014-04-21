@@ -120,11 +120,13 @@
     <!-- include only those your app requires to eliminate unnecessary app permissions -->
     <!-- to avoid duplication between Intel XDK plugins and Cordova plugins, use whichever works best for your app -->
     <intelxdk:plugin intelxdk:name="Base" intelxdk:value="intel.xdk.base" />
-    <intelxdk:plugin intelxdk:name="Acceleration" intelxdk:value="intel.xdk.acceleration" />
+    <intelxdk:plugin intelxdk:name="Accelerometer" intelxdk:value="intel.xdk.accelerometer" />
     <intelxdk:plugin intelxdk:name="Audio" intelxdk:value="intel.xdk.audio" />
     <intelxdk:plugin intelxdk:name="Cache" intelxdk:value="intel.xdk.cache" />
     <intelxdk:plugin intelxdk:name="Camera" intelxdk:value="intel.xdk.camera" />
     <intelxdk:plugin intelxdk:name="Contacts" intelxdk:value="intel.xdk.contacts" />
+    <intelxdk:plugin intelxdk:name="Device" intelxdk:value="intel.xdk.device" />
+    <intelxdk:plugin intelxdk:name="Display" intelxdk:value="intel.xdk.display" />
     <intelxdk:plugin intelxdk:name="Facebook" intelxdk:value="intel.xdk.facebook" >
         <intelxdk:param intelxdk:name="FBAPPID" intelxdk:value="123###abc###456" />
     </intelxdk:plugin>
