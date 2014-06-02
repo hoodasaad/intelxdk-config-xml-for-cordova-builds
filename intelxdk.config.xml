@@ -5,18 +5,18 @@
     xmlns:intelxdk="http://xdk.intel.com/ns/v1" 
     id="com.yourcompany.appname" 
     version="1.0" 
-    versionCode="100" >
+    versionCode="100" >     <!-- versionCode = android:versionCode, monotonic integers only -->
 
     <name>appname</name> 
     <description>Description of App</description> 
     <author>your name</author>
 
-    <content src="index.html" /> 
-    <access origin="*" />
+    <content src="index.html" />    <!-- where your app starts, XDK convention is index.html -->
+    <access origin="*" />           <!-- '*' will white-list access to all domains -->
 
     <!-- global configuration -->
     <preference name="Fullscreen" value="false" />
-    <preference name="Orientation" value="default" />
+    <preference name="Orientation" value="default" />   <!-- or landscape or portrait -->
 
 <!-- iOS -->
 
@@ -55,10 +55,12 @@
     <!-- Android specific configuration -->
     <preference name="DisallowOverscroll" value="false"/>
     <preference name="BackgroundColor" value="0xff0000ff"/>
+    <preference name="SplashScreen" value="splash" /> 
+    <!-- <preference name="SplashScreenDelay" value="1000" /> -->
+
     
-    <preference name="android-minSdkVersion" value="8" />
-    <preference name="android-maxSdkVersion" value="17" />
-    <preference name="android-targetSdkVersion" value="17" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-targetSdkVersion" value="18" />
     <preference name="android-permission" value="GET_TASKS" />
     <preference name="android-permission" value="VIBRATE" />
     <preference name="android-signed" value="true" />   
